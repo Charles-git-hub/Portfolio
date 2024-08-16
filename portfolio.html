@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+ <header>
+    <div class="logo-container">
+        <a href="#" class="logo">
+            <img src="logo.jpg" alt="Logo">
+        </a>
+    </div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-overlay"></div> <!-- Optional gradient overlay -->
+    <div class="hero-content">
+        <div class="text-content">
+            <h1 class="typewriter">
+                Hi, I'm Charles Garcia
+                <span class="robot-icon">
+                    <img src="robot-icon.png" alt="Robot Icon" class="robot" />
+                </span>
+            </h1>
+            <p>I'm a Software Engineer with a passion for web development and technology.</p>
+            <p>With experience in various programming languages and tools, I specialize in creating engaging and innovative solutions.</p>
+            <a href="resumée.pdf" class="btn" download>Download CV</a>
+        </div>
+        <div class="image-content" onclick="toggleImage()">
+            <img src="pic.jpg" alt="Charles Garcia" class="profile-image" id="imageToToggle">
+        </div>
+        
+    </div>
+</section>
+
+
+
+<section id="about" class="container profile">
+    <h2>About Me</h2>
+    <p>I'm a passionate gamer and developer with experience in game design and development. I love creating immersive experiences and working on exciting projects.</p>
+    
+    <div class="credentials-container">
+        <div class="credential">
+            <a href="diploma.pdf" target="_blank">
+                <img src="pic.jpg" alt="Diploma">
+            </a>
+            <h3>DIPLOMA</h3>
+            <p>BACHELOR OF SCIENCE IN COMPUTER SCIENCE</p>
+        </div>
+        <div class="credential">
+            <a href="nc2.pdf" target="_blank">
+                <img src="pic1.jpg" alt="NCII">
+            </a>
+            <h3>NCII</h3>
+            <p>COMPUTER SYSTEM SERVICING</p>
+        </div>
+        <div class="credential">
+            <a href="certificate.pdf" target="_blank">
+                <img src="qq.jpg" alt="International Certificate">
+            </a>
+            <h3>INTERNATIONAL CERTIFICATE</h3>
+            <p>PROGRAMMER ASSISTANT</p>
+        </div>
+    </div>
+</section>
+
+
+    <section id="services" class="container services">
+        <h2>Services</h2>
+        <div class="service">
+            <h3>Assemble and disassemble computer systems</h3>
+            <p>This includes installing hardware components like CPUs, RAM, hard drives, motherboards, and peripherals, as well as troubleshooting hardware issues.</p>
+        </div>
+        <div class="service">
+            <h3>Install and configure operating systems and software</h3>
+            <p>This includes setting up Windows, Linux, or other operating systems, as well as installing essential software and drivers.</p>
+        </div>
+        <div class="service">
+            <h3>Set up and configure small networks</h3>
+            <p>Provide services like setting up routers, switches, and configuring network connections, as well as basic network troubleshooting.</p>
+        </div>
+        <div class="service">
+            <h3>Perform regular maintenance and upgrades on computer systems</h3>
+            <p>cleaning hardware, upgrading components, applying software updates, and optimizing system performance.</p>
+        </div>
+        <div class="service">
+            <h3>Diagnose and repair computer hardware and software issues</h3>
+            <p>Fix issues like system crashes, blue screens, slow performance, and hardware malfunctions. You can also provide virus and malware removal services.</p>
+        </div>
+        <div class="service">
+            <h3>Install and configure computer peripherals</h3>
+            <p>Set up printers, scanners, webcams, and other devices, ensuring they work seamlessly with the computer systems.</p>
+        </div>
+        <div class="service">
+            <h3>Implement data backup solutions and perform data recovery</h3>
+            <p>Set up automated backup systems, recover data from damaged or corrupted storage devices, and provide data protection solutions.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="container contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, feel free to reach out to me via email at <a href="mailto:charles.gerero0@gmail.com">charles.gerero0@gmail.com</a>.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/charles.gerero/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/_xhals/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/charles-garcia-758b94314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </section>
+
+    <script src="portfolio.js"></script>
+    <footer>
+        <p>&copy; 2024 All rights reserved.</p>
+    </footer>
+</body>
+</html>
